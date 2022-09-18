@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/calc1/main.c
+stdio.h
+-
+conio.h
+-
+windows.h
+-
+limits.h
+-
+
