@@ -74,9 +74,6 @@ int main(void)
         //
 
 
-
-
-
         // Меню
 
 
@@ -416,7 +413,7 @@ int main(void)
             // 6. Умножение
             if (cou==6){
                 long long prom = (long long)numA * numB;
-                if (prom > LONG_MAX){
+                if (prom > LONG_MAX || prom < LONG_MIN){
                     overflow = 1;
                     result = 0;
                 }
