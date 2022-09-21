@@ -20,6 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="C-NOVA" targetName="overflow" />
       <config projectName="C-NOVA" targetName="calc" />
     </generated>
   </component>
@@ -29,12 +30,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b1b760-b71b-400f-9649-ffebcf86c78a" name="Default Changelist" comment="123">
+    <list default="true" id="e4b1b760-b71b-400f-9649-ffebcf86c78a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calc1/overflow.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calc1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/calc1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/calc1/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/calc1/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/calc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/calc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +80,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2EuMkJBif9m7hb1c0NxnlyE6Wer" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,16 +92,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/CLionProjects/calc/main.c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../calc/main.c" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.calc">
     <configuration name="calc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-NOVA" TARGET_NAME="calc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C-NOVA" RUN_TARGET_NAME="calc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="overflow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-NOVA" TARGET_NAME="overflow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C-NOVA" RUN_TARGET_NAME="overflow">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.calc" />
+      <item itemvalue="CMake Application.overflow" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -86,17 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663441157042</updated>
-      <workItem from="1663441158653" duration="25022000" />
-      <workItem from="1663756291713" duration="1572000" />
+      <workItem from="1663441158653" duration="21315000" />
     </task>
-    <task id="LOCAL-00001" summary="123">
-      <created>1663521717783</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663521717783</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,73 +141,47 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="174" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1663756626686">
+    <state x="174" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1663441628315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="174" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1663756626686" />
-    <state x="500" y="155" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1663756622679">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="174" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1663441628315" />
+    <state x="585" y="108" key="CommitChangelistDialog2" timestamp="1663789286486">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="500" y="155" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1663756622679" />
+    <state x="585" y="108" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1663789286486" />
     <state x="500" y="205" key="FileChooserDialogImpl" timestamp="1663443801884">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1663443801884" />
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom" timestamp="1663757687549">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1663784370329">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1663757687549" />
-    <state width="1397" height="291" key="GridCell.Tab.0.center" timestamp="1663757687548">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="954" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1663784370329" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1663784370329">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1663757687548" />
-    <state width="1397" height="291" key="GridCell.Tab.0.left" timestamp="1663757687548">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="954" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1663784370329" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1663784370329">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1663757687548" />
-    <state width="1397" height="291" key="GridCell.Tab.0.right" timestamp="1663757687548">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="954" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1663784370329" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1663784370329">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1397" height="291" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1663757687548" />
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom" timestamp="1663757687549">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1663757687549" />
-    <state width="1397" height="291" key="GridCell.Tab.1.center" timestamp="1663757687549">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1663757687549" />
-    <state width="1397" height="291" key="GridCell.Tab.1.left" timestamp="1663757687549">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1663757687549" />
-    <state width="1397" height="291" key="GridCell.Tab.1.right" timestamp="1663757687549">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1397" height="291" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1663757687549" />
+    <state width="954" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1663784370329" />
     <state x="221" y="95" key="SettingsEditor" timestamp="1663444878736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1663444878736" />
-    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1663444389980">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup" timestamp="1663784162234">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1663444389980" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/calc1/main.c</url>
-          <line>523</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1663784162234" />
   </component>
 </project>

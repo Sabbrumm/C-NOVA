@@ -1,3 +1,4 @@
-C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/cmake-build-debug/CMakeFiles/calc.dir
-C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug/CMakeFiles/calc.dir
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug/CMakeFiles/overflow.dir
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

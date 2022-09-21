@@ -6,9 +6,10 @@
 #include <conio.h>
 #include <windows.h>
 #include <limits.h>
-
+#include <math.h>
 int main(void)
 {
+
 
     // ставим русскую локализацию
     SetConsoleOutputCP(CP_UTF8);
@@ -19,10 +20,11 @@ int main(void)
     long numA = 0; // число 1
     long numB = 0; // число 2
 
-    int divide = 0; // Вывод дроби или целого числа в зависимости от последнего действия. Булево число
-    int overflow = 0; // Булево число. Произошло ли переполнение
+    short divide = 0; // Вывод дроби или целого числа в зависимости от последнего действия. Булево число
+    short overflow = 0; // Булево число. Произошло ли переполнение
+    short impossible = 0; // Булево число. Показывает невозможность операции.
 
-    float result = 0; // результат
+    double result = 0; // результат
 
     // при 0 - меню выбора первого числа
     // при 1 - меню выбора действия
@@ -36,9 +38,7 @@ int main(void)
         printf("Калькулятор C-NOVA.\n\n");
 
 
-
         // Интерфейс вычислений
-
         printf("---------------\n");
 
         if (cou==2){
@@ -50,7 +50,10 @@ int main(void)
         else {
             if (overflow == 1)
             {
-                printf("Переполнение. Попробуйте сложить числа поменьше\n");
+                printf("Переполнение. Попробуйте числа поменьше\n");
+            }
+            else if (impossible == 1){
+                printf("Невозможно сделать действие\n");
             }
             else
             {
@@ -60,7 +63,7 @@ int main(void)
                 }
                 else
                 {
-                    printf("%.3f\n", result);
+                    printf("%.3E\n", result);
                 }
 
             };
@@ -148,18 +151,31 @@ int main(void)
         }
 
         // Пункт 8
-        printf("8) Обнулить числа и результат (Del) ");
+        printf("8) Возвести A в степень B ");
         if (cou==8)
-        {
-            printf("<---\n");
-        }
+            {
+                printf("<---\n");
+            }
         else {
             printf("\n");
         }
 
         // Пункт 9
-        printf("9) Перестановка чисел (Tab) ");
+        printf("9) Корень степени B из A ");
         if (cou==9)
+            {
+                printf("<---\n");
+            }
+        else {
+            printf("\n");
+        }
+
+
+
+
+        // Пункт 10
+        printf("10) Обнулить числа и результат (Del) ");
+        if (cou==10)
         {
             printf("<---\n");
         }
@@ -167,9 +183,19 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 10
-        printf("10) Выход из программы (Escape) ");
-        if (cou==10)
+        // Пункт 11
+        printf("11) Перестановка чисел (Tab) ");
+        if (cou==11)
+        {
+            printf("<---\n");
+        }
+        else {
+            printf("\n");
+        }
+
+        // Пункт 12
+        printf("12) Выход из программы (Escape) ");
+        if (cou==12)
         {
             printf("<---\n");
         }
@@ -225,20 +251,32 @@ int main(void)
                     printf("\n%d/%d= (Нажмите Enter)\n\n",(int)numA, (int)numB);
                 }
 
-            // при варианте обнуления
+            // при варианте степени
             if (cou==8)
+            {
+                printf("\n%d^%d= (Нажмите Enter)\n\n",(int)numA, (int)numB);
+            }
+
+            // при варианте корня
+            if (cou==9)
+            {
+                printf("\n%d\\/%d`= (Нажмите Enter)\n\n",(int)numB, (int)numA);
+            }
+
+            // при варианте обнуления
+            if (cou==10)
                 {
                     printf("\nНажмите Enter для обнуления чисел\n\n");
                 }
 
             // при варианте смены
-            if (cou==9)
+            if (cou==11)
                 {
                     printf("\nНажмите Enter для того чтобы поменять числа A и B местами\n\n");
                 }
 
             // при варианте выхода
-            if (cou==10)
+            if (cou==12)
                 {
                     printf("\nНажмите Enter для выхода из программы\n\n");
                 }
@@ -295,11 +333,13 @@ int main(void)
                         {
                             result = numA + numB;
                             overflow = 0;
+                            impossible = 0;
                         }
                         else
                         {
                             overflow = 1;
                             result = 0;
+                            impossible = 0;
                         }
                     }
 
@@ -308,10 +348,12 @@ int main(void)
                         if ((LONG_MIN-numA < numB)){
                             result = numA + numB;
                             overflow = 0;
+                            impossible = 0;
                         }
                         else
                         {
                             overflow = 1;
+                            impossible = 0;
                             result = 0;
                         }
                     }
@@ -322,6 +364,7 @@ int main(void)
                 else {
                     result = numA + numB;
                     overflow = 0;
+                    impossible = 0;
                 }
 
                 divide = 0;
@@ -334,6 +377,7 @@ int main(void)
 
                 if (numB != 0 && numA/numB >= 0){
                     overflow = 0;
+                    impossible = 0;
                     result = numA-numB;
                 }
                 // Если разный
@@ -343,9 +387,11 @@ int main(void)
                         if ((LONG_MAX - numA > -1 * numB)) {
                             result = numA - numB;
                             overflow = 0;
+                            impossible = 0;
                         } else {
                             overflow = 1;
                             result = 0;
+                            impossible = 0;
                         }
                     }
 
@@ -354,7 +400,9 @@ int main(void)
                         if ((LONG_MIN - numA < -1 * numB)) {
                             result = numA - numB;
                             overflow = 0;
+                            impossible = 0;
                         } else {
+                            impossible = 0;
                             overflow = 1;
                             result = 0;
                         }
@@ -367,41 +415,106 @@ int main(void)
 
             // 6. Умножение
             if (cou==6){
-                result = numA * numB;
-                divide = 0;
-                continue;
+                long long prom = (long long)numA * numB;
+                if (prom > LONG_MAX){
+                    overflow = 1;
+                    result = 0;
+                }
+                else {
+                    result = numA * numB;
+                    impossible = 0;
+                    overflow = 0;
+                    divide = 0;
+                    continue;
+                }
             }
 
             // 7. Деление
             if (cou==7){
-                result = (float)numA / (float)numB;
-                divide = 1;
+                if (numB == 0){
+                    impossible = 1;
+                    continue;
+                }
+                result = (double)numA / (double)numB;
+                if (numA%numB==0) {
+                    divide = 0;
+                }
+                else {
+                    divide = 1;
+                }
+                impossible = 0;
+                overflow = 0;
                 continue;
 
             }
 
-            // 8. Обнуление чисел
-            if (cou == 8){
+            // 8. Степень
+            if (cou==8){
+                double prom = pow((double)numA, (double)numB);
+                if (prom > LONG_MAX || prom < LONG_MIN){
+                    overflow = 1;
+                    result = 0;
+                }
+                else {
+                    result = pow(numA, numB);
+                    impossible = 0;
+                    overflow = 0;
+                    if (numB < 0){
+                        divide = 1;
+                    }
+                    else {
+                        divide = 0;
+                    }
+                    continue;}
+            }
+
+            // 9. Корень
+            if (cou==9){
+                if (numB<=0 || (numA<0 && numB%2==0)){
+                    overflow = 0;
+                    impossible = 1;
+                    continue;
+                }
+
+                double prom = pow((double)numA, ((double)1/numB));
+                if (prom > LONG_MAX || prom < LONG_MIN){
+                    overflow = 1;
+                    result = 0;
+                }
+                else {
+                    result = pow((double)numA, ((double)1/numB));
+                    impossible = 0;
+                    overflow = 0;
+                    divide = 1;
+                    continue;
+                }
+            }
+
+            // 10. Обнуление чисел
+            if (cou == 10){
                 numA = 0;
                 numB = 0;
                 result = 0;
+                overflow = 0;
+                impossible = 0;
                 divide = 0;
                 cou = 2;
                 continue;
             }
 
-            // 9. Перестановка
-            if (cou == 9){
+            // 11. Перестановка
+            if (cou == 11){
                 long numC = numA;
                 numA = numB;
                 numB = numC;
                 result = 0;
+                overflow = 0;
                 cou = 2;
                 continue;
             }
 
-            // 10. Выход
-            if (cou==10) {break;}
+            // 12. Выход
+            if (cou==12) {break;}
         }
 
         // Если нажаты цифры от 0 до 9
@@ -480,7 +593,7 @@ int main(void)
             // Стрелочка вниз
             if (inp2==80){
                 cou+=1;
-                if (cou==11){
+                if (cou==13){
                     cou=1;
                 }
                 continue;
@@ -490,7 +603,7 @@ int main(void)
             if (inp2==72){
                 cou-=1;
                 if (cou==0){
-                    cou=10;
+                    cou=12;
                 }
                 continue;
             }
@@ -499,6 +612,10 @@ int main(void)
             if (inp2 == 83){
                 numA = 0;
                 numB = 0;
+                result = 0;
+                overflow = 0;
+                impossible = 0;
+                divide = 0;
                 cou = 2;
                 continue;
             }
