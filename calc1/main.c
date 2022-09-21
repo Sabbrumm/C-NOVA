@@ -250,7 +250,6 @@ int main(void)
         // Обработка нажатий
 
         inp = _getch();
-        printf("\nВВОД %d\n", inp);
 
         // Нажали BackSpace
         if (inp == 8){
@@ -288,13 +287,14 @@ int main(void)
                 // Переполнение чек
 
                 // Одинаковый знак
-                if (numA/numB >= 0){
+                if (numB != 0 && numA/numB >= 0){
 
                     // и этот знак +
                     if (numA >= 0){
                         if ((LONG_MAX-numA > numB))
                         {
                             result = numA + numB;
+                            overflow = 0;
                         }
                         else
                         {
@@ -307,6 +307,7 @@ int main(void)
                     if (numA < 0){
                         if ((LONG_MIN-numA < numB)){
                             result = numA + numB;
+                            overflow = 0;
                         }
                         else
                         {
@@ -318,8 +319,9 @@ int main(void)
                 }
 
                 // Разный знак
-                if (numA/numB < 0){
-                        result = numA + numB;
+                else {
+                    result = numA + numB;
+                    overflow = 0;
                 }
 
                 divide = 0;
@@ -328,12 +330,35 @@ int main(void)
 
             // 5. Вычитание
             if (cou==5){
-                if ((LONG_MAX-numA > -1*numB) && (LONG_MIN-numA) < -1*numB){
-                    result = numA - numB;
+                // Если одинаковый знак
+
+                if (numB != 0 && numA/numB >= 0){
+                    overflow = 0;
+                    result = numA-numB;
                 }
+                // Если разный
                 else {
-                    overflow = 1;
-                    result = 0;
+                    // и этот знак +
+                    if (numA >= 0) {
+                        if ((LONG_MAX - numA > -1 * numB)) {
+                            result = numA - numB;
+                            overflow = 0;
+                        } else {
+                            overflow = 1;
+                            result = 0;
+                        }
+                    }
+
+                    // и этот знак -
+                    if (numA < 0) {
+                        if ((LONG_MIN - numA < -1 * numB)) {
+                            result = numA - numB;
+                            overflow = 0;
+                        } else {
+                            overflow = 1;
+                            result = 0;
+                        }
+                    }
                 }
 
                 divide = 0;
@@ -393,32 +418,56 @@ int main(void)
                 if (numA>=0){
 
                     // без переполнения
-                    if ((LONG_MAX - inpnum)/10 >= numA)
+                    if ((LONG_MAX)/10 > numA){
+                        numA = numA*10 + inpnum;
+                    }
+                    else if (LONG_MAX/10 == numA && inpnum <=7){
+                        numA = numA*10 + inpnum;
+                    }
 
-                    numA = numA*10 + inpnum;
+
                 }
                 else
                 {
                     // без переполнения
-                    if ((LONG_MIN + inpnum)/10 <= numA )
-                    numA = numA*10 - inpnum;
+                    if ((LONG_MIN)/10 < numA){
+                        numA = numA*10 - inpnum;
+                    }
+                    else if (LONG_MIN/10 == numA && inpnum <=8){
+                        numA = numA*10 - inpnum;
+                    }
                 }
 
                 continue;
             }
+
+            // если мы в пункте числа B
             if (cou==3){
+
+                // если число B больше нуля
                 if (numB>=0){
 
                     // без переполнения
-                    if ((LONG_MAX - inpnum)/10 >= numB)
-                    numB = numB*10 + inpnum;
+                    if ((LONG_MAX)/10 > numB){
+                        numB = numB*10 + inpnum;
+                    }
+                    else if (LONG_MAX/10 == numB && inpnum <=7){
+                        numB = numB*10 + inpnum;
+                    }
+
+
                 }
                 else
                 {
                     // без переполнения
-                    if ((LONG_MIN + inpnum)/10 <= numB)
-                    numB = numB*10 - inpnum;
+                    if ((LONG_MIN)/10 < numB){
+                        numB = numB*10 - inpnum;
+                    }
+                    else if (LONG_MIN/10 == numB && inpnum <=8){
+                        numB = numB*10 - inpnum;
+                    }
                 }
+
                 continue;
             }
         }
@@ -474,4 +523,4 @@ int main(void)
 
         };
     return 0;
-};
+}
