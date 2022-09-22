@@ -20,11 +20,10 @@ int main(void)
     long numA = 0; // число 1
     long numB = 0; // число 2
 
-    short divide = 0; // Вывод дроби или целого числа в зависимости от последнего действия. Булево число
     short overflow = 0; // Булево число. Произошло ли переполнение
     short impossible = 0; // Булево число. Показывает невозможность операции.
 
-    double result = 0; // результат
+    long long result = 0; // результат
 
     // при 0 - меню выбора первого числа
     // при 1 - меню выбора действия
@@ -56,17 +55,9 @@ int main(void)
                 printf("Невозможно сделать действие\n");
             }
             else
-            {
-                if (divide == 0)
                 {
-                    printf("%d\n", (int) result);
+                printf("%d\n", (int) result);
                 }
-                else
-                {
-                    printf("%.3E\n", result);
-                }
-
-            };
         };
 
         printf("---------------\n\n");
@@ -77,8 +68,8 @@ int main(void)
         // Меню
 
 
-        // Пункт 1
-        printf("1) Помощь ");
+        // Пункт ?
+        printf("?) Помощь ");
         if (cou==1)
         {
             printf("<---\n");
@@ -87,8 +78,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 2
-        printf("2) Число A (%d) ", (int)numA);
+        // Пункт A
+        printf("A) Число A: %d (A) ", (int)numA);
         if (cou==2)
         {
             printf("<---\n");
@@ -97,8 +88,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 3
-        printf("3) Число B (%d) ", (int)numB);
+        // Пункт B
+        printf("B) Число B: %d (B) ", (int)numB);
         if (cou==3)
         {
             printf("<---\n");
@@ -107,8 +98,10 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 4
-        printf("4) Сложить A и B ");
+        printf("---------------\n\n");
+
+        // Пункт 1
+        printf("1) Сложить A и B ");
         if (cou==4)
         {
             printf("<---\n");
@@ -117,8 +110,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 5
-        printf("5) Вычесть B из A ");
+        // Пункт 2
+        printf("2) Вычесть B из A ");
         if (cou==5)
         {
             printf("<---\n");
@@ -127,8 +120,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 6
-        printf("6) Умножить A на B ");
+        // Пункт 3
+        printf("3) Умножить A на B ");
         if (cou==6)
         {
             printf("<---\n");
@@ -137,8 +130,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 7
-        printf("7) Поделить A на B ");
+        // Пункт 4
+        printf("4) Поделить A на B ");
         if (cou==7)
         {
             printf("<---\n");
@@ -147,8 +140,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 8
-        printf("8) Возвести A в степень B ");
+        // Пункт 5
+        printf("5) Возвести A в степень B ");
         if (cou==8)
             {
                 printf("<---\n");
@@ -157,8 +150,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 9
-        printf("9) Корень степени B из A ");
+        // Пункт 6
+        printf("6) Корень степени B из A ");
         if (cou==9)
             {
                 printf("<---\n");
@@ -168,10 +161,8 @@ int main(void)
         }
 
 
-
-
-        // Пункт 10
-        printf("10) Обнулить числа и результат (Del) ");
+        // Пункт 7
+        printf("7) Обнулить числа и результат (Del) ");
         if (cou==10)
         {
             printf("<---\n");
@@ -180,8 +171,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 11
-        printf("11) Перестановка чисел (Tab) ");
+        // Пункт 8
+        printf("8) Перестановка чисел (Tab) ");
         if (cou==11)
         {
             printf("<---\n");
@@ -190,8 +181,8 @@ int main(void)
             printf("\n");
         }
 
-        // Пункт 12
-        printf("12) Выход из программы (Escape) ");
+        // Пункт 9
+        printf("9) Выход из программы (Escape) ");
         if (cou==12)
         {
             printf("<---\n");
@@ -207,9 +198,8 @@ int main(void)
             // при варианте помощь
             if (cou==1)
             {
-                printf("Введите числа A и B через пункты 2 и 3 (для инверсии числа нажмите -)\n"
-                       "Используйте клавиши, указанные в скобках для быстрого выполнения действий\n"
-                       "После вычислений, число А автоматически примет значение результата, если это возможно.\n");
+                printf("Введите числа A и B через пункты A и B (для инверсии числа нажмите -)\n"
+                       "Используйте клавиши, указанные в скобках для быстрого выполнения действий\n");
             }
 
             // при варианте числа A
@@ -286,6 +276,7 @@ int main(void)
 
         inp = _getch();
 
+        //printf("%d", _getch());
         // Нажали BackSpace
         if (inp == 8){
             if (cou==2){
@@ -364,7 +355,6 @@ int main(void)
                     impossible = 0;
                 }
 
-                divide = 0;
                 continue;
             }
 
@@ -405,8 +395,6 @@ int main(void)
                         }
                     }
                 }
-
-                divide = 0;
                 continue;
             }
 
@@ -421,7 +409,6 @@ int main(void)
                     result = numA * numB;
                     impossible = 0;
                     overflow = 0;
-                    divide = 0;
                     continue;
                 }
             }
@@ -432,13 +419,7 @@ int main(void)
                     impossible = 1;
                     continue;
                 }
-                result = (double)numA / (double)numB;
-                if (numA%numB==0) {
-                    divide = 0;
-                }
-                else {
-                    divide = 1;
-                }
+                result = numA / numB;
                 impossible = 0;
                 overflow = 0;
                 continue;
@@ -453,15 +434,9 @@ int main(void)
                     result = 0;
                 }
                 else {
-                    result = pow(numA, numB);
+                    result = (long)round(pow(numA, numB));
                     impossible = 0;
                     overflow = 0;
-                    if (numB < 0){
-                        divide = 1;
-                    }
-                    else {
-                        divide = 0;
-                    }
                     continue;}
             }
 
@@ -479,10 +454,9 @@ int main(void)
                     result = 0;
                 }
                 else {
-                    result = pow((double)numA, ((double)1/numB));
+                    result = (long)round(pow((double)numA, ((double)1/numB)));
                     impossible = 0;
                     overflow = 0;
-                    divide = 1;
                     continue;
                 }
             }
@@ -494,7 +468,6 @@ int main(void)
                 result = 0;
                 overflow = 0;
                 impossible = 0;
-                divide = 0;
                 cou = 2;
                 continue;
             }
@@ -552,7 +525,7 @@ int main(void)
             }
 
             // если мы в пункте числа B
-            if (cou==3){
+            else if (cou==3){
 
                 // если число B больше нуля
                 if (numB>=0){
@@ -578,6 +551,11 @@ int main(void)
                     }
                 }
 
+                continue;
+            }
+
+            else if (inpnum!=0){
+                cou=inpnum+3;
                 continue;
             }
         }
@@ -612,7 +590,6 @@ int main(void)
                 result = 0;
                 overflow = 0;
                 impossible = 0;
-                divide = 0;
                 cou = 2;
                 continue;
             }
@@ -626,6 +603,24 @@ int main(void)
             numB = numC;
             result = 0;
             cou = 2;
+            continue;
+        }
+
+        // Нажали A на различных раскладках
+        if (inp == 97 || inp == 65 || inp == 228 || inp == 148){
+            cou=2;
+            continue;
+        }
+
+        // Нажали B на различных раскладках
+        if (inp == 98 || inp == 66 || inp == 136 || inp == 168){
+            cou=3;
+            continue;
+        }
+
+        // Нажали ? на различных раскладках
+        if (inp == 47 || inp == 46 || inp == 44 || inp == 63){
+            cou=1;
             continue;
         }
 
