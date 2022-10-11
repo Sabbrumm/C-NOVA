@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/calc.dir/DependInfo.cmake"
+  "CMakeFiles/spiral.dir/DependInfo.cmake"
   )

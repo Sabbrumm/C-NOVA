@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named calc
+# Target rules for targets named spiral
 
 # Build rule for target.
-calc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 calc
-.PHONY : calc
+spiral: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 spiral
+.PHONY : spiral
 
 # fast build rule for target.
-calc/fast:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/build
-.PHONY : calc/fast
+spiral/fast:
+	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/build
+.PHONY : spiral/fast
 
-calc1/polina.obj: calc1/polina.c.obj
+spiral/main.obj: spiral/main.c.obj
 
-.PHONY : calc1/polina.obj
+.PHONY : spiral/main.obj
 
 # target to build an object file
-calc1/polina.c.obj:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.obj
-.PHONY : calc1/polina.c.obj
+spiral/main.c.obj:
+	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.obj
+.PHONY : spiral/main.c.obj
 
-calc1/polina.i: calc1/polina.c.i
+spiral/main.i: spiral/main.c.i
 
-.PHONY : calc1/polina.i
+.PHONY : spiral/main.i
 
 # target to preprocess a source file
-calc1/polina.c.i:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.i
-.PHONY : calc1/polina.c.i
+spiral/main.c.i:
+	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.i
+.PHONY : spiral/main.c.i
 
-calc1/polina.s: calc1/polina.c.s
+spiral/main.s: spiral/main.c.s
 
-.PHONY : calc1/polina.s
+.PHONY : spiral/main.s
 
 # target to generate assembly for a file
-calc1/polina.c.s:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.s
-.PHONY : calc1/polina.c.s
+spiral/main.c.s:
+	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.s
+.PHONY : spiral/main.c.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... calc
 	@echo ... edit_cache
+	@echo ... spiral
 	@echo ... rebuild_cache
-	@echo ... calc1/polina.obj
-	@echo ... calc1/polina.i
-	@echo ... calc1/polina.s
+	@echo ... spiral/main.obj
+	@echo ... spiral/main.i
+	@echo ... spiral/main.s
 .PHONY : help
 
 

@@ -2,6 +2,3 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug
-
-Cannot get compiler information:
-	Unable to create temporary file
