@@ -122,72 +122,32 @@ calc/fast:
 	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/build
 .PHONY : calc/fast
 
-#=============================================================================
-# Target rules for targets named overflow
+calc1/polina.obj: calc1/polina.c.obj
 
-# Build rule for target.
-overflow: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 overflow
-.PHONY : overflow
-
-# fast build rule for target.
-overflow/fast:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/build
-.PHONY : overflow/fast
-
-calc1/main.obj: calc1/main.c.obj
-
-.PHONY : calc1/main.obj
+.PHONY : calc1/polina.obj
 
 # target to build an object file
-calc1/main.c.obj:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/main.c.obj
-.PHONY : calc1/main.c.obj
+calc1/polina.c.obj:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.obj
+.PHONY : calc1/polina.c.obj
 
-calc1/main.i: calc1/main.c.i
+calc1/polina.i: calc1/polina.c.i
 
-.PHONY : calc1/main.i
-
-# target to preprocess a source file
-calc1/main.c.i:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/main.c.i
-.PHONY : calc1/main.c.i
-
-calc1/main.s: calc1/main.c.s
-
-.PHONY : calc1/main.s
-
-# target to generate assembly for a file
-calc1/main.c.s:
-	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/main.c.s
-.PHONY : calc1/main.c.s
-
-calc1/overflow.obj: calc1/overflow.c.obj
-
-.PHONY : calc1/overflow.obj
-
-# target to build an object file
-calc1/overflow.c.obj:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/calc1/overflow.c.obj
-.PHONY : calc1/overflow.c.obj
-
-calc1/overflow.i: calc1/overflow.c.i
-
-.PHONY : calc1/overflow.i
+.PHONY : calc1/polina.i
 
 # target to preprocess a source file
-calc1/overflow.c.i:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/calc1/overflow.c.i
-.PHONY : calc1/overflow.c.i
+calc1/polina.c.i:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.i
+.PHONY : calc1/polina.c.i
 
-calc1/overflow.s: calc1/overflow.c.s
+calc1/polina.s: calc1/polina.c.s
 
-.PHONY : calc1/overflow.s
+.PHONY : calc1/polina.s
 
 # target to generate assembly for a file
-calc1/overflow.c.s:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/calc1/overflow.c.s
-.PHONY : calc1/overflow.c.s
+calc1/polina.c.s:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/calc1/polina.c.s
+.PHONY : calc1/polina.c.s
 
 # Help Target
 help:
@@ -196,15 +156,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... calc
-	@echo ... overflow
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... calc1/main.obj
-	@echo ... calc1/main.i
-	@echo ... calc1/main.s
-	@echo ... calc1/overflow.obj
-	@echo ... calc1/overflow.i
-	@echo ... calc1/overflow.s
+	@echo ... calc1/polina.obj
+	@echo ... calc1/polina.i
+	@echo ... calc1/polina.s
 .PHONY : help
 
 

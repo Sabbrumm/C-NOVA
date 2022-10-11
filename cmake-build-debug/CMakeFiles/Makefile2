@@ -53,7 +53,6 @@ CMAKE_BINARY_DIR = C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/calc.dir/all
-all: CMakeFiles/overflow.dir/all
 
 .PHONY : all
 
@@ -64,7 +63,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/calc.dir/clean
-clean: CMakeFiles/overflow.dir/clean
 
 .PHONY : clean
 
@@ -94,33 +92,6 @@ calc: CMakeFiles/calc.dir/rule
 CMakeFiles/calc.dir/clean:
 	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/clean
 .PHONY : CMakeFiles/calc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/overflow.dir
-
-# All Build rule for target.
-CMakeFiles/overflow.dir/all:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/depend
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target overflow"
-.PHONY : CMakeFiles/overflow.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/overflow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/overflow.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/overflow.dir/rule
-
-# Convenience name for target.
-overflow: CMakeFiles/overflow.dir/rule
-
-.PHONY : overflow
-
-# clean rule for target.
-CMakeFiles/overflow.dir/clean:
-	$(MAKE) -f CMakeFiles\overflow.dir\build.make CMakeFiles/overflow.dir/clean
-.PHONY : CMakeFiles/overflow.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

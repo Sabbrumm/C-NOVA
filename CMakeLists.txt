@@ -2,6 +2,4 @@ project(C-NOVA)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(calc calc1/main.c)
-
-add_executable(overflow calc1/overflow.c)
+add_executable(calc calc1/polina.c)

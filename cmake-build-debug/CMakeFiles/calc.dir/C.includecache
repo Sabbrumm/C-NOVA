@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sabbrumm/CLionProjects/C-NOVA/calc1/main.c
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/calc1/polina.c
 stdio.h
+-
+locale.h
+-
+math.h
+-
+stdlib.h
 -
 conio.h
 -
 windows.h
 -
-limits.h
--
-math.h
+wincon.h
 -
 
