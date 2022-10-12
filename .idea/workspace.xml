@@ -31,9 +31,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4b1b760-b71b-400f-9649-ffebcf86c78a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spiral/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/spiral/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,7 @@
       <workItem from="1664311335988" duration="346000" />
       <workItem from="1664312199197" duration="1837000" />
       <workItem from="1665004762330" duration="10000" />
-      <workItem from="1665520534546" duration="13786000" />
+      <workItem from="1665520534546" duration="13875000" />
     </task>
     <servers />
   </component>

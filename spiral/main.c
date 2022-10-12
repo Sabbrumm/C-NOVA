@@ -6,10 +6,13 @@
 #include <conio.h>
 #include <stdio.h>
 
+#define KEY_ESC 27
+#define KEY_CONTROL 224
+#define KEY_BACKSPACE 8
+#define KEY_ENTER 13
+
 int width = 0;
 int height = 0;
-
-
 int cant = 0;
 int massive[12][12] = {};
 
@@ -21,8 +24,6 @@ void print_spiral(){
         printf("\n");
     }
 }
-
-
 void null_massive(){
     for (int i = 0; i<12; i++){
         for (int j = 0; j<12; j++){
@@ -30,7 +31,6 @@ void null_massive(){
         }
     }
 }
-
 void generate_left_center(){
     null_massive();
     int startcol = 0;
@@ -75,7 +75,6 @@ void generate_left_center(){
     }
     print_spiral();
 }
-
 void generate_right_center(){
     null_massive();
     int startcol = 0;
@@ -120,7 +119,6 @@ void generate_right_center(){
     }
     print_spiral();
 }
-
 void generate_center_left(){
     null_massive();
     int startcol = 0;
@@ -171,7 +169,6 @@ void generate_center_left(){
     }
     print_spiral();
 }
-
 void generate_center_right(){
     null_massive();
     int startcol = 0;
@@ -221,9 +218,6 @@ void generate_center_right(){
     }
     print_spiral();
 }
-
-
-
 void attention(int cou){
     if (cou == 1){
         printf("Длина может быть введена только от 1 до 12");
@@ -238,7 +232,6 @@ void attention(int cou){
     }
 
 }
-
 void arrow(int expression){
     if (expression) {
         printf(" <--\n");
@@ -247,7 +240,6 @@ void arrow(int expression){
         printf("\n");
     }
 }
-
 void UI(int cou){
     printf("СПИРАЛЬКА C-NOVA\n\n");
 
@@ -300,7 +292,6 @@ void UI(int cou){
     }
 
 }
-
 void check_input(){
     if (height>0 && height<14 && width>0 && width<13){
         cant = 0;
@@ -309,12 +300,6 @@ void check_input(){
         cant = 1;
     }
 }
-
-
-#define KEY_ESC 27
-#define KEY_CONTROL 224
-#define KEY_BACKSPACE 8
-#define KEY_ENTER 13
 
 int main(){
     int cou = 1;
