@@ -31,7 +31,7 @@ void null_massive(){
     }
 }
 
-void generate_basic(){
+void generate_left_center(){
     null_massive();
     int startcol = 0;
     int startrow = 0;
@@ -75,6 +75,154 @@ void generate_basic(){
     }
     print_spiral();
 }
+
+void generate_right_center(){
+    null_massive();
+    int startcol = 0;
+    int startrow = 0;
+    int endcol = height-1;
+    int endrow = width-1;
+    int filler = 1;
+
+
+    while(startcol <= endcol && startrow<=endrow && filler<=width*height){
+        if (filler<=width*height){
+            for (int i = endcol; i>=startcol; i--) {
+                massive[startrow][i] = filler;
+                filler++;
+            }
+            startrow++;
+        }
+
+        if (filler<=width*height){
+            for (int j = startrow; j<=endrow; j++) {
+                massive[j][startcol] = filler;
+                filler++;
+            }
+            startcol++;
+        }
+
+        if (filler<=width*height){
+            for (int k = startcol; k<=endcol; k++) {
+                massive[endrow][k] = filler;
+                filler++;
+            }
+            endrow--;
+        }
+
+        if (filler<=width*height){
+            for (int l = endrow; l>=startrow; l--){
+                massive[l][endcol] = filler;
+                filler++;
+            }
+            endcol--;
+        }
+    }
+    print_spiral();
+}
+
+void generate_center_left(){
+    null_massive();
+    int startcol = 0;
+    int startrow = 0;
+    int endcol = height-1;
+    int endrow = width-1;
+    int filler = 1;
+
+
+    while(startcol <= endcol && startrow<=endrow && filler<=width*height){
+        if (filler<=width*height){
+            for (int i = startcol; i<=endcol; i++) {
+                massive[startrow][i] = filler;
+                filler++;
+            }
+            startrow++;
+        }
+
+        if (filler<=width*height){
+            for (int j = startrow; j<=endrow; j++) {
+                massive[j][endcol] = filler;
+                filler++;
+            }
+            endcol--;
+        }
+
+        if (filler<=width*height){
+            for (int k = endcol; k>=startcol; k--) {
+                massive[endrow][k] = filler;
+                filler++;
+            }
+            endrow--;
+        }
+
+        if (filler<=width*height){
+            for (int l = endrow; l>=startrow; l--){
+                massive[l][startcol] = filler;
+                filler++;
+            }
+            startcol++;
+        }
+    }
+
+    for (int i = 0; i<width; i++){
+        for (int j = 0; j<height; j++){
+            massive[i][j] = massive[i][j] = abs(massive[i][j]-(width*height+1));
+        }
+    }
+    print_spiral();
+}
+
+void generate_center_right(){
+    null_massive();
+    int startcol = 0;
+    int startrow = 0;
+    int endcol = height-1;
+    int endrow = width-1;
+    int filler = 1;
+
+
+    while(startcol <= endcol && startrow<=endrow && filler<=width*height){
+        if (filler<=width*height){
+            for (int i = endcol; i>=startcol; i--) {
+                massive[startrow][i] = filler;
+                filler++;
+            }
+            startrow++;
+        }
+
+        if (filler<=width*height){
+            for (int j = startrow; j<=endrow; j++) {
+                massive[j][startcol] = filler;
+                filler++;
+            }
+            startcol++;
+        }
+
+        if (filler<=width*height){
+            for (int k = startcol; k<=endcol; k++) {
+                massive[endrow][k] = filler;
+                filler++;
+            }
+            endrow--;
+        }
+
+        if (filler<=width*height){
+            for (int l = endrow; l>=startrow; l--){
+                massive[l][endcol] = filler;
+                filler++;
+            }
+            endcol--;
+        }
+    }
+    for (int i = 0; i<width; i++){
+        for (int j = 0; j<height; j++){
+            massive[i][j] = massive[i][j] = abs(massive[i][j]-(width*height+1));
+        }
+    }
+    print_spiral();
+}
+
+
 
 void attention(int cou){
     if (cou == 1){
@@ -129,7 +277,18 @@ void UI(int cou){
 
     if (cou >= 3 && cou <=6){
         if (cant == 0){
-            generate_basic();
+            if (cou==3){
+                generate_left_center();
+            }
+            if (cou==4){
+                generate_right_center();
+            }
+            if (cou==5){
+                generate_center_right();
+            }
+            if (cou==6){
+                generate_center_left();
+            }
         }
 
         else {
