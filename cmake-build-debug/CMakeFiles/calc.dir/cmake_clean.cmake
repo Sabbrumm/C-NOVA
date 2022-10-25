@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calc.dir/calc1/polina.c.obj"
-  "CMakeFiles/calc.dir/spiral/main.c.obj"
+  "CMakeFiles/calc.dir/calc1/main.c.obj"
   "calc.exe"
   "calc.exe.manifest"
   "calc.pdb"

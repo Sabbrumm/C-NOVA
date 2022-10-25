@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/spiral.dir/all
+all: CMakeFiles/xo.dir/all
 
 .PHONY : all
 
@@ -62,36 +62,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/spiral.dir/clean
+clean: CMakeFiles/xo.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/spiral.dir
+# Target rules for target CMakeFiles/xo.dir
 
 # All Build rule for target.
-CMakeFiles/spiral.dir/all:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/depend
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target spiral"
-.PHONY : CMakeFiles/spiral.dir/all
+CMakeFiles/xo.dir/all:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/depend
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target xo"
+.PHONY : CMakeFiles/xo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/spiral.dir/rule: cmake_check_build_system
+CMakeFiles/xo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/spiral.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/xo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/spiral.dir/rule
+.PHONY : CMakeFiles/xo.dir/rule
 
 # Convenience name for target.
-spiral: CMakeFiles/spiral.dir/rule
+xo: CMakeFiles/xo.dir/rule
 
-.PHONY : spiral
+.PHONY : xo
 
 # clean rule for target.
-CMakeFiles/spiral.dir/clean:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/clean
-.PHONY : CMakeFiles/spiral.dir/clean
+CMakeFiles/xo.dir/clean:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/clean
+.PHONY : CMakeFiles/xo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

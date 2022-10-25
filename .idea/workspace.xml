@@ -20,7 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="C-NOVA" targetName="spiral" />
+      <config projectName="C-NOVA" targetName="xo" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,8 +30,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4b1b760-b71b-400f-9649-ffebcf86c78a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xo/border.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xo/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiral/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/spiral/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/calc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/calc.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +75,7 @@
   <component name="ProjectId" id="2EuMkJBif9m7hb1c0NxnlyE6Wer" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,7 +91,7 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
-    <configuration name="spiral" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-NOVA" TARGET_NAME="spiral" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C-NOVA" RUN_TARGET_NAME="spiral">
+    <configuration name="xo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C-NOVA" TARGET_NAME="xo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C-NOVA" RUN_TARGET_NAME="xo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -90,7 +111,10 @@
       <workItem from="1664311335988" duration="346000" />
       <workItem from="1664312199197" duration="1837000" />
       <workItem from="1665004762330" duration="10000" />
-      <workItem from="1665520534546" duration="13875000" />
+      <workItem from="1665520534546" duration="14832000" />
+      <workItem from="1666028799952" duration="820000" />
+      <workItem from="1666553669818" duration="76000" />
+      <workItem from="1666721379249" duration="14830000" />
     </task>
     <servers />
   </component>
@@ -126,51 +150,79 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1663443801884" />
-    <state width="833" height="758" key="GridCell.Tab.0.bottom" timestamp="1665571829531">
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.bottom" timestamp="1666728407376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666728407376" />
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.center" timestamp="1666728407376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1666728407376" />
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.left" timestamp="1666728407376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1666728407376" />
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.right" timestamp="1666728407376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666728407376" />
+    <state width="833" height="373" key="GridCell.Tab.0.bottom" timestamp="1666736356854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="954" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
-    <state width="833" height="758" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
-    <state width="833" height="758" key="GridCell.Tab.0.center" timestamp="1665571829531">
+    <state width="833" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666736356854" />
+    <state width="833" height="373" key="GridCell.Tab.0.center" timestamp="1666736356854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="954" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
-    <state width="833" height="758" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
-    <state width="833" height="758" key="GridCell.Tab.0.left" timestamp="1665571829531">
+    <state width="833" height="373" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1666736356854" />
+    <state width="833" height="373" key="GridCell.Tab.0.left" timestamp="1666736356854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="954" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
-    <state width="833" height="758" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
-    <state width="833" height="758" key="GridCell.Tab.0.right" timestamp="1665571829531">
+    <state width="833" height="373" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1666736356854" />
+    <state width="833" height="373" key="GridCell.Tab.0.right" timestamp="1666736356854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="954" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
-    <state width="833" height="758" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1665531571845">
+    <state width="833" height="373" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666736356854" />
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.bottom" timestamp="1666728400214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1665531571845" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1665531571845">
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666728400214" />
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.center" timestamp="1666728400214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1665531571845" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1665531571845">
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1666728400214" />
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.left" timestamp="1666728400213">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1665531571845" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1665531571845">
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1666728400213" />
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.right" timestamp="1666728400214">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1665531571845" />
+    <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666728400214" />
     <state x="221" y="95" key="SettingsEditor" timestamp="1663444878736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1663444878736" />
-    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup" timestamp="1663784162234">
+    <state x="514" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1666728763355">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="514" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1666728763355" />
+    <state x="28" y="352" width="1864" height="403" key="dock-window-1" timestamp="1666728705806">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="28" y="352" width="1864" height="403" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1666728705806" />
+    <state x="119" y="739" width="1863" height="375" key="dock-window-2" timestamp="1666728705806">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="119" y="739" width="1863" height="375" key="dock-window-2/0.0.1920.1080@0.0.1920.1080" timestamp="1666728705806" />
+    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup" timestamp="1666734774482">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1663444389980" />
-    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1663784162234" />
+    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1666734774482" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,10 +234,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="CMakeRunConfiguration">
-        <watch expression="massive" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

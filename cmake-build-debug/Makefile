@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named spiral
+# Target rules for targets named xo
 
 # Build rule for target.
-spiral: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 spiral
-.PHONY : spiral
+xo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 xo
+.PHONY : xo
 
 # fast build rule for target.
-spiral/fast:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/build
-.PHONY : spiral/fast
+xo/fast:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/build
+.PHONY : xo/fast
 
-spiral/main.obj: spiral/main.c.obj
+xo/border.obj: xo/border.c.obj
 
-.PHONY : spiral/main.obj
+.PHONY : xo/border.obj
 
 # target to build an object file
-spiral/main.c.obj:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.obj
-.PHONY : spiral/main.c.obj
+xo/border.c.obj:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.obj
+.PHONY : xo/border.c.obj
 
-spiral/main.i: spiral/main.c.i
+xo/border.i: xo/border.c.i
 
-.PHONY : spiral/main.i
+.PHONY : xo/border.i
 
 # target to preprocess a source file
-spiral/main.c.i:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.i
-.PHONY : spiral/main.c.i
+xo/border.c.i:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.i
+.PHONY : xo/border.c.i
 
-spiral/main.s: spiral/main.c.s
+xo/border.s: xo/border.c.s
 
-.PHONY : spiral/main.s
+.PHONY : xo/border.s
 
 # target to generate assembly for a file
-spiral/main.c.s:
-	$(MAKE) -f CMakeFiles\spiral.dir\build.make CMakeFiles/spiral.dir/spiral/main.c.s
-.PHONY : spiral/main.c.s
+xo/border.c.s:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.s
+.PHONY : xo/border.c.s
 
 # Help Target
 help:
@@ -156,11 +156,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... spiral
+	@echo ... xo
 	@echo ... rebuild_cache
-	@echo ... spiral/main.obj
-	@echo ... spiral/main.i
-	@echo ... spiral/main.s
+	@echo ... xo/border.obj
+	@echo ... xo/border.i
+	@echo ... xo/border.s
 .PHONY : help
 
 

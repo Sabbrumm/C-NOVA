@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sabbrumm/CLionProjects/C-NOVA/calc1/main.c
+C:/Users/Sabbrumm/CLionProjects/C-NOVA/xo/border.c
 stdio.h
 -
 conio.h
 -
 windows.h
--
-limits.h
--
-math.h
 -
 
