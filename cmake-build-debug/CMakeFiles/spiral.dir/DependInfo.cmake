@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Sabbrumm/CLionProjects/C-NOVA/spiral/main.c" "C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj"
+  "C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/spiral/main.c" "C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

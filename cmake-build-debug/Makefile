@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Sabbrumm\CLionProjects\C-NOVA
+CMAKE_SOURCE_DIR = C:\Users\Sabbrumm\Documents\GitHub\C-NOVA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Sabbrumm\Documents\GitHub\C-NOVA\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\Documents\GitHub\C-NOVA\cmake-build-debug\CMakeFiles C:\Users\Sabbrumm\Documents\GitHub\C-NOVA\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\CLionProjects\C-NOVA\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sabbrumm\Documents\GitHub\C-NOVA\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,32 @@ xo/fast:
 	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/build
 .PHONY : xo/fast
 
-xo/border.obj: xo/border.c.obj
+xo/main.obj: xo/main.c.obj
 
-.PHONY : xo/border.obj
+.PHONY : xo/main.obj
 
 # target to build an object file
-xo/border.c.obj:
-	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.obj
-.PHONY : xo/border.c.obj
+xo/main.c.obj:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/main.c.obj
+.PHONY : xo/main.c.obj
 
-xo/border.i: xo/border.c.i
+xo/main.i: xo/main.c.i
 
-.PHONY : xo/border.i
+.PHONY : xo/main.i
 
 # target to preprocess a source file
-xo/border.c.i:
-	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.i
-.PHONY : xo/border.c.i
+xo/main.c.i:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/main.c.i
+.PHONY : xo/main.c.i
 
-xo/border.s: xo/border.c.s
+xo/main.s: xo/main.c.s
 
-.PHONY : xo/border.s
+.PHONY : xo/main.s
 
 # target to generate assembly for a file
-xo/border.c.s:
-	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/border.c.s
-.PHONY : xo/border.c.s
+xo/main.c.s:
+	$(MAKE) -f CMakeFiles\xo.dir\build.make CMakeFiles/xo.dir/xo/main.c.s
+.PHONY : xo/main.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... xo
 	@echo ... rebuild_cache
-	@echo ... xo/border.obj
-	@echo ... xo/border.i
-	@echo ... xo/border.s
+	@echo ... xo/main.obj
+	@echo ... xo/main.i
+	@echo ... xo/main.s
 .PHONY : help
 
 

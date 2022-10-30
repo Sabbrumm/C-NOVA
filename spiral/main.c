@@ -19,7 +19,7 @@ int massive[12][12] = {};
 void print_spiral(){
     for (int i = 0; i<width; i++){
         for (int j = 0; j<height; j++){
-            printf("%03d ", massive[i][j]);
+            printf("%3d ", massive[i][j]);
         }
         printf("\n");
     }
@@ -220,11 +220,11 @@ void generate_center_right(){
 }
 void attention(int cou){
     if (cou == 1){
-        printf("Длина может быть введена только от 1 до 12");
+        printf("Высота может быть введена только от 1 до 12");
     }
 
     if (cou == 2){
-        printf("Высота может быть введена только от 1 до 12");
+        printf("Длина может быть введена только от 1 до 12");
     }
 
     if (cou == 7){
@@ -244,10 +244,10 @@ void UI(int cou){
     printf("СПИРАЛЬКА C-NOVA\n\n");
 
 
-    printf("1. Ввод длины:   %d", width);
+    printf("1. Ввод высоты:   %d", width);
     arrow(cou==1);
 
-    printf("2. Ввод высоты   %d", height);
+    printf("2. Ввод длины:    %d", height);
     arrow(cou==2);
 
     printf("3. С левого верхнего края в центр");

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Sabbrumm\CLionProjects\C-NOVA
+"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Sabbrumm\Documents\GitHub\C-NOVA
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Sabbrumm/CLionProjects/C-NOVA/cmake-build-debug
+-- Build files have been written to: C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/cmake-build-debug

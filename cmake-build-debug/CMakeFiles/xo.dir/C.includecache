@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Sabbrumm/CLionProjects/C-NOVA/xo/border.c
-stdio.h
--
+C:/Users/Sabbrumm/Documents/GitHub/C-NOVA/xo/main.c
 conio.h
+-
+stdio.h
 -
 windows.h
 -

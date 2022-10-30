@@ -33,6 +33,7 @@
       <change afterPath="$PROJECT_DIR$/xo/border.c" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/xo/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -52,6 +53,53 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/calc.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/calc.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C-NOVA.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/calc1/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/calc1/polina.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/calc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/overflow.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/spiral.dir/spiral/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/spiral.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiral/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/spiral/main.c" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +159,17 @@
       <workItem from="1664311335988" duration="346000" />
       <workItem from="1664312199197" duration="1837000" />
       <workItem from="1665004762330" duration="10000" />
+<<<<<<< Updated upstream
       <workItem from="1665520534546" duration="14832000" />
       <workItem from="1666028799952" duration="820000" />
       <workItem from="1666553669818" duration="76000" />
       <workItem from="1666721379249" duration="14830000" />
+=======
+      <workItem from="1665520534546" duration="13875000" />
+      <workItem from="1665573476043" duration="80000" />
+      <workItem from="1665675038647" duration="989000" />
+      <workItem from="1666283032813" duration="1758000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -150,6 +205,7 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="500" y="205" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1663443801884" />
+<<<<<<< Updated upstream
     <state x="119" y="739" width="1847" height="307" key="GridCell.Tab.-1.bottom" timestamp="1666728407376">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -187,6 +243,29 @@
     <state width="954" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1663501491027" />
     <state width="833" height="373" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666736356854" />
     <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.bottom" timestamp="1666728400214">
+=======
+    <state width="1397" height="67" key="GridCell.Tab.0.bottom" timestamp="1665573557515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1397" height="67" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1665573557515" />
+    <state width="833" height="758" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
+    <state width="1397" height="67" key="GridCell.Tab.0.center" timestamp="1665573557515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1397" height="67" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1665573557515" />
+    <state width="833" height="758" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
+    <state width="1397" height="67" key="GridCell.Tab.0.left" timestamp="1665573557515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1397" height="67" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1665573557515" />
+    <state width="833" height="758" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
+    <state width="1397" height="67" key="GridCell.Tab.0.right" timestamp="1665573557515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1397" height="67" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1665573557515" />
+    <state width="833" height="758" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1665571829531" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1665531571845">
+>>>>>>> Stashed changes
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="233" width="1847" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666728400214" />
@@ -206,6 +285,7 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="95" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1663444878736" />
+<<<<<<< Updated upstream
     <state x="514" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1666728763355">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -223,14 +303,31 @@
     </state>
     <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1663444389980" />
     <state x="511" y="228" width="896" height="814" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1666734774482" />
+=======
+    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1665675208647">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1665675208647" />
+    <state x="511" y="228" width="896" height="814" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1663784162234" />
+>>>>>>> Stashed changes
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/calc1/main.c</url>
-          <line>306</line>
+          <line>307</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/spiral/main.c</url>
+          <line>121</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/spiral/main.c</url>
+          <line>77</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

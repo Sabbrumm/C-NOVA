@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
+
 int width = 14;
 int height = 14;
 int mass[14][14] = {{0}};

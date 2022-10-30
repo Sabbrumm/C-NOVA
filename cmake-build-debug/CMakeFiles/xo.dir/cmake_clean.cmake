@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/xo.dir/xo/border.c.obj"
+  "CMakeFiles/xo.dir/xo/main.c.obj"
   "libxo.dll.a"
   "xo.exe"
   "xo.exe.manifest"
